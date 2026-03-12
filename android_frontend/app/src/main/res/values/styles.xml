@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Flames.OceanProfessional" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorBackground">@color/ocean_background</item>
+        <item name="android:textColorPrimary">@color/ocean_text</item>
+        <item name="android:textColorSecondary">@color/ocean_text_muted</item>
+
+        <item name="android:colorAccent">@color/ocean_secondary</item>
+        <item name="android:colorPrimary">@color/ocean_primary</item>
+        <item name="android:colorPrimaryDark">@color/ocean_primary</item>
+
+        <item name="android:windowBackground">@color/ocean_background</item>
+        <item name="android:statusBarColor">@color/ocean_primary</item>
+        <item name="android:navigationBarColor">@color/ocean_background</item>
+    </style>
+
+    <style name="Theme.Flames.OceanProfessional.Splash" parent="Theme.Flames.OceanProfessional">
+        <item name="android:statusBarColor">@color/ocean_primary</item>
+        <item name="android:windowBackground">@color/ocean_primary</item>
+    </style>
+
+    <!-- Base text appearance (referenced implicitly by TextAppearance.Flames.* name hierarchy) -->
+    <style name="TextAppearance.Flames" parent="android:TextAppearance.Material" />
+
+    <style name="TextAppearance.Flames.Title" parent="TextAppearance.Flames">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/ocean_text</item>
+    </style>
+
+    <style name="TextAppearance.Flames.Subtitle" parent="TextAppearance.Flames">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/ocean_text_muted</item>
+    </style>
+
+    <style name="TextAppearance.Flames.Result" parent="TextAppearance.Flames">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/ocean_primary</item>
+    </style>
+
+    <!-- Base widget style required by some resource references expecting style/Widget -->
+    <style name="Widget" />
+
+    <!-- Base widget style (referenced implicitly by Widget.Flames.* name hierarchy) -->
+    <style name="Widget.Flames" parent="Widget" />
+
+    <style name="Widget.Flames.ButtonPrimary" parent="Widget.Flames">
+        <item name="android:background">@drawable/bg_button_primary</item>
+        <item name="android:textColor">@color/ocean_surface</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+
+</resources>

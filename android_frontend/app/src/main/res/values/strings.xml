@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FLAMES</string>
+
+    <string name="splash_title">FLAMES</string>
+    <string name="splash_subtitle">Relationship Calculator</string>
+
+    <string name="play_title">Play</string>
+    <string name="name_1_hint">Your name</string>
+    <string name="name_2_hint">Partner name</string>
+    <string name="btn_calculate">Calculate</string>
+    <string name="btn_clear">Clear</string>
+    <string name="result_label">Result</string>
+    <string name="history">History</string>
+
+    <string name="history_title">History</string>
+    <string name="history_empty">No history yet. Play a round first.</string>
+    <string name="btn_clear_history">Clear history</string>
+
+    <string name="error_enter_names">Please enter both names.</string>
+</resources>
